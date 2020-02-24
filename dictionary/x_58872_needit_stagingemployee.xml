@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="staging employee" max_length="40" name="x_58872_needit_stagingemployee" type="collection">
+        <element label="Departement" max_length="100" name="departement" type="string"/>
+        <element label="Nom" max_length="100" name="nom" type="string"/>
+        <element label="Prenom" max_length="100" name="prenom" type="string"/>
+        <element label="Telephone" max_length="40" name="telephone" type="phone_number_e164"/>
+    </element>
+</database>

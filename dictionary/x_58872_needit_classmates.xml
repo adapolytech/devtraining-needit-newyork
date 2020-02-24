@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="classmates" max_length="40" name="x_58872_needit_classmates" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date de Naissane" mandatory="true" max_length="40" name="u_date_de_naissance" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=email" label="email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=nom" label="nom" max_length="40" name="u_nom" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prenoms" label="Prenoms" max_length="40" name="u_prenoms" type="string"/>
+    </element>
+</database>
